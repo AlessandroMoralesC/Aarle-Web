@@ -1,553 +1,279 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AARLE.VES</title>
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/LOGO AARLE.png" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - google font link
-  -->
+  <meta name="description" content="AARLE-VES promueve liderazgo estudiantil, participacion ciudadana y accion social en Villa El Salvador. Conoce actividades, proyectos, #ALOLOKU y formas de participar.">
+  <meta name="theme-color" content="#0f5fb8">
+  <title>AARLE-VES | Liderazgo juvenil en Villa El Salvador</title>
+  <link rel="shortcut icon" href="./assets/images/LOGO AARLE.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <img src="./assets/images/LOGO AARLE.png" alt="Logo AARLE-VES">
+      <span>AARLE-VES</span>
+    </a>
 
-<body id="top">
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+      <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+    </button>
 
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
-    <div class="overlay" data-overlay></div>
-  
-    <div class="header-top">
-      <div class="container">
-        
-        <!-- Redes Sociales -->
-        <ul class="social-list">
-          <li>
-            <a href="https://www.facebook.com/profile.php?id=100084520611612" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/aarle_ves/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tiktok.com/@aarle.ves" class="social-link">
-              <ion-icon name="logo-tiktok"></ion-icon>
-            </a>
-          </li>
-        </ul>
-  
-        <!-- Logo en el centro -->
-        <a href="index.html" class="logo">
-          <img src="./assets/images/LOGO AARLE.png" alt="AARLE LOGO">
-        </a>
-  
-
-        
-        <!-- Navegación a la derecha -->
-        <nav class="navbar" data-navbar>
-
-          <div class="navbar-top">
-
-            <a href="#" class="logo">
-              <img src="./assets/images/LOGO AARLE.png" alt="Tourly logo">
-            </a>
-
-            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </div>
-
-          <ul class="navbar-list">
-            <li><a href="index.html" class="navbar-link" data-nav-link>Inicio</a></li>
-            <li><a href="actividades.html" class="navbar-link" data-nav-link>Actividades</a></li>
-            <li><a href="radio.html" class="navbar-link" data-nav-link>Radio</a></li>
-            <li><a href="experiencias.html" class="navbar-link" data-nav-link>Experiencias</a></li>
-            <li><a href="contacto.html" class="navbar-link" data-nav-link>Contacto</a></li>
-          </ul>
-
-        </nav>
-        <div class="header-btn-group">
-
-          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-      
-        </div>
-      </div>
-    </div>
+    <nav class="site-nav" data-nav aria-label="Navegacion principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#aloloku">#ALOLOKU</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#temas">Temas</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#participa">Participa</a>
+      <a href="#foro">Foro</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
   </header>
-  
-
-
 
   <main>
-    <article>
+    <section class="hero" id="inicio">
+      <div class="hero-media" aria-hidden="true">
+        <img src="./assets/images/BANNER AARLE.jpg" alt="">
+      </div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Villa El Salvador · liderazgo estudiantil · accion social</p>
+        <h1>Juventud que lidera, comunidad que transforma</h1>
+        <p>AARLE-VES promueve liderazgo estudiantil, participacion ciudadana y accion social en Villa El Salvador.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#actividades">Conoce nuestras actividades</a>
+          <a class="btn btn-secondary" href="#aloloku">Escucha #ALOLOKU</a>
+        </div>
+      </div>
+      <aside class="hero-card reveal" aria-label="Resumen de AARLE-VES">
+        <span class="pulse-dot"></span>
+        <strong>Asociacion Alcaldes Regidores Lideres Estudiantiles</strong>
+        <p>Impulsamos espacios educativos, comunitarios, culturales y radiales para que mas jovenes participen y propongan soluciones.</p>
+      </aside>
+    </section>
 
-      <!-- 
-        - #BANNER
-      -->
-
-      <section class="hero" id="home">
-        <div class="container">
-
-          <h2 class="h1 hero-title">¡Despierta tu curiosidad, aprende y crece cada día!</h2>
-
-          <p class="hero-text">
-            En Aarle, creemos en el poder de la curiosidad y el aprendizaje.
-          </p>
-
-          <div class="btn-group">
-            <a href="actividades.html" class="btn btn-primary">Explorar</a>
-
+    <section class="section about" id="nosotros">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Nosotros</p>
+        <h2>Una red joven con voz, valores y compromiso ciudadano</h2>
+        <p>Somos una asociacion de alcaldes, regidores y lideres estudiantiles comprometidos con el desarrollo social, educativo y comunitario de Villa El Salvador.</p>
+      </div>
+      <div class="about-grid">
+        <article class="about-copy reveal">
+          <p>Impulsamos actividades que fortalecen la voz de los jovenes y promueven una sociedad mas justa, inclusiva y participativa. Trabajamos temas como violencia, racismo, derechos, convivencia, igualdad, prevencion social y cultura de paz.</p>
+          <div class="value-cloud" aria-label="Valores de AARLE-VES">
+            <span>Liderazgo</span>
+            <span>Respeto</span>
+            <span>Inclusion</span>
+            <span>Igualdad</span>
+            <span>Solidaridad</span>
+            <span>Participacion ciudadana</span>
+            <span>Compromiso social</span>
           </div>
-
+        </article>
+        <div class="mission-grid reveal">
+          <article>
+            <ion-icon name="flag-outline" aria-hidden="true"></ion-icon>
+            <h3>Mision</h3>
+            <p>Formar liderazgos estudiantiles capaces de dialogar, actuar y movilizar a su comunidad.</p>
+          </article>
+          <article>
+            <ion-icon name="sparkles-outline" aria-hidden="true"></ion-icon>
+            <h3>Vision</h3>
+            <p>Ser una organizacion juvenil referente en participacion, inclusion y transformacion social.</p>
+          </article>
+          <article>
+            <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+            <h3>Valores</h3>
+            <p>Construimos desde el respeto, la igualdad, la solidaridad y el compromiso con Villa El Salvador.</p>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-
-
-
-
-      
-
-
-
-
-      <!-- 
-        - #QUIENES SOMOS
-      -->
-
-      <section class="popular" id="destination">
-        <div class="container">
-
-          <p class="section-subtitle">Nosotros</p>
-
-          <h2 class="h2 section-title">Quienes Somos</h2>
-
-          <p class="section-text">
-            AARLE es un grupo social de estudiantes en Villa El Salvador comprometidos con el diálogo y la acción sobre temas sociales. Organizamos conversaciones, foros y conducimos una radio para generar conciencia y fomentar el cambio en nuestra comunidad. Nuestra misión es impulsar el pensamiento crítico, la participación juvenil, liderazgo y la construcción de un futuro más justo para todos. 🚀🎙️💡
-          </p>
-
-          <ul class="popular-list">
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/quienesomos1.jpg" alt="San miguel, italy" loading="lazy">
-                </figure>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/quienesomos2.jpg" alt="Burj khalifa, dubai" loading="lazy">
-                </figure>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/quienesomos3.jpg" alt="Kyoto temple, japan" loading="lazy">
-                </figure>
-
-              </div>
-            </li>
-
-          </ul> 
+    <section class="section radio-feature" id="aloloku">
+      <div class="radio-shell reveal">
+        <div class="radio-copy">
+          <p class="eyebrow">Radio Stereo Villa 101.7 FM</p>
+          <h2>#ALOLOKU: voces jovenes que hablan por la comunidad</h2>
+          <p>#ALOLOKU es nuestro espacio radial en Radio Stereo Villa. Desde este programa conversamos sobre los temas que importan a la juventud y a la comunidad: violencia, racismo, liderazgo, derechos, convivencia, igualdad y participacion ciudadana.</p>
+          <div class="radio-actions">
+            <a class="btn btn-primary" href="https://www.facebook.com/stereovilla" target="_blank" rel="noopener">Escuchar programa</a>
+            <a class="btn btn-light" href="https://www.facebook.com/profile.php?id=100084520611612" target="_blank" rel="noopener">Ver publicaciones</a>
+          </div>
         </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #HABILIDADES
-      -->
-
-      <section class="package" id="package">
-        <div class="container">
-
-          <p class="section-subtitle">Desarrolla tus habilidades</p>
-
-          <h2 class="h2 section-title">Superate con nosotros</h2>
-
-          <p class="section-text">
-            Aarle te brinda un espacio donde puedes crecer personal y profesionalmente, desarrollando habilidades esenciales para tu futuro. Únete a nuestras actividades y descubre todo lo que puedes lograr.
-          </p>
-
-          <ul class="package-list">
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/habilidades1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Liderazgo</h3>
-
-                  <p class="card-text">
-                    Aprende a tomar iniciativa, guiar equipos y tomar decisiones con confianza en distintos entornos.
-                  </p>
-
-                </div>
-
-                <div class="card-price">
-                  <ul class="benefits-list">
-                      <li><i class="fas fa-check-circle"></i>1. Mejora tu capacidad de liderazgo</li>
-                      <li><i class="fas fa-lightbulb"></i>2. Potencia tu toma de decisiones</li>
-                  </ul>
-              </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/habilidades2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Hablar en público</h3>
-
-                  <p class="card-text">
-                    Vence el miedo a hablar en público y comunica tus ideas con seguridad. Aprende técnicas para expresarte con claridad, captar la atención de tu audiencia y transmitir tu mensaje con impacto.
-                  </p>
-
-                </div>
-
-                <div class="card-price">
-                  <ul class="benefits-list">
-                      <li><i class="fas fa-microphone"></i>1. Mejora tu seguridad al hablar</li>
-                      <li><i class="fas fa-users"></i>2. Aprende a captar la atención del público</li>
-                      <li><i class="fas fa-comment-dots"></i>3. Expresa ideas con claridad y confianza</li>
-                      <li><i class="fas fa-lightbulb"></i>4. Supera el miedo escénico</li>
-                  </ul>
-              </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/habilidades3.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Trabajo en equipo</h3>
-
-                  <p class="card-text">
-                    Aprende a colaborar con otros, resolver conflictos y alcanzar objetivos en grupo. Desarrolla habilidades para coordinar esfuerzos, comunicarte eficazmente y potenciar el éxito colectivo.
-                  </p>
-
-
-                </div>
-
-                <div class="card-price">
-                  <ul class="benefits-list">
-                      <li><i class="fas fa-handshake"></i>1. Fomenta la colaboración</li>
-                      <li><i class="fas fa-users"></i>2. Aprende a coordinar con diferentes personas</li>
-                      <li><i class="fas fa-heart"></i>3. Crea un ambiente de respeto y confianza</li>
-                  </ul>
-              </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/habilidades4.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Expresión y comunicación</h3>
-
-                  <p class="card-text">
-                    Aprende a expresarte de manera clara y efectiva en cualquier situación. Mejora tu comunicación verbal y no verbal para conectar con los demás y transmitir ideas con seguridad.
-                  </p>
-
-
-
-                </div>
-
-                <div class="card-price">
-                  <ul class="benefits-list">
-                      <li><i class="fas fa-comment-alt"></i>1. Mejora tu capacidad de argumentación</li>
-                      <li><i class="fas fa-headset"></i>2. Desarrolla habilidades de escucha activa</li>
-                      <li><i class="fas fa-user-friends"></i>3. Aprende a interactuar con diferentes personas</li>
-                      <li><i class="fas fa-comments"></i>4. Expresa emociones e ideas con claridad</li>
-                  </ul>
-              </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/habilidades5.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Desenvolvimiento personal</h3>
-
-                  <p class="card-text">
-                    Refuerza tu seguridad y confianza en diferentes situaciones sociales y académicas. Aprende a expresarte con naturalidad, interactuar con los demás y desenvolverte en entornos nuevos.
-                  </p>
-
-                
-
-                </div>
-
-                <div class="card-price">
-                  <ul class="benefits-list">
-                      <li><i class="fas fa-user-check"></i>1. Refuerza tu autoestima y seguridad</li>
-                      <li><i class="fas fa-brain"></i>2. Potencia tu inteligencia emocional</li>
-                      <li><i class="fas fa-rocket"></i>3. Desarrolla autonomía y proactividad</li>
-                      <li><i class="fas fa-smile"></i>4. Mejora tu bienestar y confianza en ti mismo</li>
-                  </ul>
-              </div>
-
-              </div>
-            </li>
-
-          </ul>
-
+        <div class="radio-card" aria-label="Ficha del programa #ALOLOKU">
+          <div class="frequency">
+            <span>101.7 FM</span>
+            <img src="./assets/images/radio.png" alt="Logo Radio Stereo Villa">
+          </div>
+          <div class="waves" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <p><strong>Horario referencial:</strong> sabados de 4:00 p.m. a 5:00 p.m.</p>
         </div>
-      </section>
+      </div>
+      <div class="topic-strip reveal" id="radioTopics"></div>
+      <div class="radio-media reveal">
+        <img src="./assets/images/radio2.jpg" alt="Participacion de AARLE-VES en Radio Stereo Villa">
+        <video src="./assets/images/radiovideo.mp4" controls preload="metadata" aria-label="Video del programa radial #ALOLOKU"></video>
+      </div>
+    </section>
 
+    <section class="section activities" id="actividades">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Actividades</p>
+        <h2>Accion social en colegios, espacios publicos y comunidad</h2>
+        <p>Realizamos actividades en colegios, espacios publicos y comunidades, generando reflexion, participacion y compromiso social.</p>
+      </div>
+      <div class="card-grid" id="activitiesGrid" aria-live="polite"></div>
+    </section>
 
+    <section class="section topics" id="temas">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Temas sociales</p>
+        <h2>Ejes que impulsamos</h2>
+        <p>Trabajamos problemas reales desde una mirada juvenil, educativa y comunitaria.</p>
+      </div>
+      <div class="icon-grid" id="socialTopicsGrid"></div>
+    </section>
 
+    <section class="section projects" id="proyectos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Proyectos e iniciativas</p>
+        <h2>Ideas que pueden crecer con mas aliados</h2>
+        <p>Esta seccion esta preparada para sumar nuevas campanas, talleres, jornadas y espacios de dialogo.</p>
+      </div>
+      <div class="project-list" id="projectsList"></div>
+    </section>
 
+    <section class="section gallery-section" id="galeria">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Galeria</p>
+        <h2>Momentos que nos inspiran</h2>
+        <p>Fotos y videos de reuniones, talleres, actividades comunitarias y experiencias de integrantes.</p>
+      </div>
+      <div class="gallery-filters reveal" id="galleryFilters"></div>
+      <div class="gallery-grid reveal" id="galleryGrid"></div>
+    </section>
 
-      <!-- 
-        - #GALERIA INSIPIRACIONES
-      -->
+    <section class="impact" id="impacto">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Impacto</p>
+        <h2>Una comunidad que se mueve</h2>
+      </div>
+      <div class="impact-grid" id="impactGrid"></div>
+    </section>
 
-      <section class="gallery" id="gallery">
-        <div class="container">
-
-          <p class="section-subtitle">Nuestra experiencia en acción</p>
-
-          <h2 class="h2 section-title">Momentos que nos inspiran</h2>
-
-          <p class="section-text">
-            A través de nuestras actividades, los estudiantes no solo aprenden, sino que también viven experiencias enriquecedoras que los ayudan a crecer. Desde charlas y debates hasta eventos y programas de radio, cada momento es una oportunidad para desarrollarse y compartir con los demás.
-          </p>
-
-          <ul class="gallery-list">
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/galeriainicio1.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/galeriainicio2.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/galeriainicio5.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/galeriainicio3.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/galeriainicio4.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-          </ul>
-
+    <section class="section participate" id="participa">
+      <div class="participate-panel reveal">
+        <div>
+          <p class="eyebrow">Participa</p>
+          <h2>Se parte del cambio</h2>
+          <p>Si eres estudiante, docente, vecino, institucion o aliado social, puedes sumarte a nuestras iniciativas y construir junto a nosotros una comunidad mas activa e inclusiva.</p>
         </div>
-      </section>
+        <div class="participate-actions">
+          <a class="btn btn-primary" href="#contacto">Quiero participar</a>
+          <a class="btn btn-secondary-dark" href="#contacto">Invitar a AARLE a mi colegio</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/51982279793" target="_blank" rel="noopener">Contactar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
 
-    </article>
+    <section class="section forum-section" id="foro">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Foro juvenil</p>
+        <h2>Un espacio para proponer y conversar</h2>
+        <p>Comparte ideas para nuevas actividades, temas de #ALOLOKU o necesidades de tu colegio/comunidad.</p>
+      </div>
+      <div class="forum-layout reveal">
+        <form class="forum-form" id="forumForm">
+          <label>Nombre
+            <input type="text" name="name" placeholder="Tu nombre o institucion" required>
+          </label>
+          <label>Tema
+            <select name="topic" required>
+              <option value="">Selecciona un tema</option>
+              <option>Actividad escolar</option>
+              <option>Propuesta para #ALOLOKU</option>
+              <option>Campana social</option>
+              <option>Aliado o voluntariado</option>
+            </select>
+          </label>
+          <label>Mensaje
+            <textarea name="message" rows="4" placeholder="Escribe tu idea o pregunta" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Publicar idea</button>
+        </form>
+        <div class="forum-posts" id="forumPosts"></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>Hablemos y construyamos juntos</h2>
+        <p>Escribenos para coordinar actividades, alianzas, entrevistas o invitaciones a colegios y comunidades.</p>
+      </div>
+      <div class="contact-grid reveal">
+        <form class="contact-form" action="mailto:aarle_ves@gmail.com" method="post" enctype="text/plain">
+          <label>Nombre
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+          </label>
+          <label>Correo
+            <input type="email" name="correo" placeholder="tu@email.com" required>
+          </label>
+          <label>Asunto
+            <input type="text" name="asunto" placeholder="Motivo del mensaje" required>
+          </label>
+          <label>Mensaje
+            <textarea name="mensaje" rows="5" placeholder="Cuentanos como podemos colaborar" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+        </form>
+        <aside class="contact-card">
+          <h3>Datos de contacto</h3>
+          <a href="tel:+51982279793"><ion-icon name="call-outline" aria-hidden="true"></ion-icon> +51 982 279 793</a>
+          <a href="mailto:aarle_ves@gmail.com"><ion-icon name="mail-outline" aria-hidden="true"></ion-icon> aarle_ves@gmail.com</a>
+          <p><ion-icon name="location-outline" aria-hidden="true"></ion-icon> Villa El Salvador, Lima, Peru</p>
+          <div class="social-row">
+            <a href="https://www.facebook.com/profile.php?id=100084520611612" target="_blank" rel="noopener" aria-label="Facebook de AARLE-VES"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/aarle_ves/" target="_blank" rel="noopener" aria-label="Instagram de AARLE-VES"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.tiktok.com/@aarle.ves" target="_blank" rel="noopener" aria-label="TikTok de AARLE-VES"><ion-icon name="logo-tiktok"></ion-icon></a>
+          </div>
+        </aside>
+      </div>
+    </section>
   </main>
 
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
   <footer class="footer">
-
-    <div class="footer-top">
-      <div class="container">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/LOGO AARLE.png" alt="Tourly logo">
-          </a>
-
-          <p class="footer-text">
-            Aarle es un espacio donde los estudiantes pueden desarrollar sus habilidades de liderazgo, comunicación y trabajo en equipo a través de debates, foros y nuestra radio estudiantil.
-          </p>
-
-        </div>
-
-        <div class="footer-contact">
-
-          <h4 class="contact-title">Contactanos</h4>
-
-          <p class="contact-text">
-            Resolvemos tus consultas!
-          </p>
-
-          <ul>
-
-            <li class="contact-item">
-              <ion-icon name="call-outline"></ion-icon>
-
-              <a href="tel:+51 982 279 793" class="contact-link">+51 982 279 793</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="mail-outline"></ion-icon>
-
-              <a href="mailto:aarle_ves@gmail.com" class="contact-link">aarle_ves@gmail.com</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="location-outline"></ion-icon>
-
-              <address>Villa el Salvador, Lima</address>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="footer-form">
-
-          <p class="form-text">
-            ¡Suscríbete para enterarte de nuestras actualizaciones y noticias!
-          </p>
-
-          <form action="" class="form-wrapper">
-            <input type="email" name="email" class="input-field" placeholder="Ingresa tu correo" required>
-
-            <button type="submit" class="btn btn-secondary">Suscribirse</button>
-          </form>
-
-        </div>
-
-      </div>
+    <div>
+      <a class="brand footer-brand" href="#inicio">
+        <img src="./assets/images/LOGO AARLE.png" alt="Logo AARLE-VES">
+        <span>AARLE-VES</span>
+      </a>
+      <p>Liderazgo juvenil para transformar nuestra comunidad.</p>
     </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2025 <a href="">alessandrodev_AARLEVES</a>. Todos los derechos reservados
-        </p>
-
-        <ul class="footer-bottom-list">
-
-          <li>
-            <a href="#" class="footer-bottom-link">Privacy Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-bottom-link">Term & Condition</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-bottom-link">FAQ</a>
-          </li>
-
-        </ul>
-
-      </div>
-    </div>
-
+    <nav aria-label="Enlaces rapidos">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#aloloku">#ALOLOKU</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#foro">Foro</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <p class="copyright">© <span id="year"></span> AARLE-VES. Todos los derechos reservados.</p>
   </footer>
 
+  <button class="to-top" type="button" aria-label="Volver arriba" data-to-top>
+    <ion-icon name="chevron-up-outline" aria-hidden="true"></ion-icon>
+  </button>
 
-
-
-
-  <!-- 
-    - #GO TO TOP
-  -->
-
-  <a href="#TOP" class="go-top" data-go-top>
-    <ion-icon name="chevron-up-outline"></ion-icon>
-  </a>
-
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
