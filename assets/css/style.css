@@ -1,16 +1,16 @@
 :root {
-  --blue-950: #08264a;
-  --blue-800: #0f4f9f;
-  --blue-600: #1475d1;
+  --blue-950: #12351f;
+  --blue-800: #2f8f46;
+  --blue-600: #69c95f;
   --yellow: #f6c542;
-  --green: #1fa76a;
+  --green: #9bdc65;
   --orange: #f47b3f;
   --ink: #14213d;
   --muted: #5d6b82;
-  --line: #dce6f2;
-  --soft: #f4f8fc;
+  --line: #dcebd8;
+  --soft: #f6fbf2;
   --white: #ffffff;
-  --shadow: 0 18px 45px rgba(8, 38, 74, 0.14);
+  --shadow: 0 18px 45px rgba(18, 53, 31, 0.14);
   --radius: 8px;
   --section: 92px;
 }
@@ -68,7 +68,7 @@ section {
   min-height: 78px;
   padding: 12px clamp(18px, 4vw, 56px);
   color: var(--white);
-  background: rgba(8, 38, 74, 0.35);
+  background: rgba(18, 53, 31, 0.42);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
   transition: background 220ms ease, box-shadow 220ms ease, min-height 220ms ease;
@@ -78,7 +78,7 @@ section {
   min-height: 68px;
   background: rgba(255, 255, 255, 0.94);
   color: var(--ink);
-  box-shadow: 0 12px 30px rgba(8, 38, 74, 0.12);
+  box-shadow: 0 12px 30px rgba(18, 53, 31, 0.12);
 }
 
 .brand {
@@ -160,8 +160,8 @@ section {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 78% 28%, rgba(246, 197, 66, 0.36), transparent 26%),
-    linear-gradient(100deg, rgba(8, 38, 74, 0.95), rgba(15, 79, 159, 0.74) 54%, rgba(20, 117, 209, 0.36));
+    radial-gradient(circle at 78% 28%, rgba(246, 197, 66, 0.34), transparent 26%),
+    linear-gradient(100deg, rgba(18, 53, 31, 0.96), rgba(47, 143, 70, 0.78) 54%, rgba(105, 201, 95, 0.38));
 }
 
 .hero-media img {
@@ -250,13 +250,13 @@ h3 {
 .btn:hover,
 .btn:focus-visible {
   transform: translateY(-3px);
-  box-shadow: 0 16px 32px rgba(8, 38, 74, 0.18);
+  box-shadow: 0 16px 32px rgba(18, 53, 31, 0.18);
   outline: none;
 }
 
 .btn-primary {
   color: var(--blue-950);
-  background: var(--yellow);
+  background: var(--green);
 }
 
 .btn-secondary {
@@ -278,7 +278,7 @@ h3 {
 
 .btn-whatsapp {
   color: var(--white);
-  background: var(--green);
+  background: #1f8f4f;
 }
 
 .hero-card {
@@ -304,7 +304,7 @@ h3 {
   height: 16px;
   border-radius: 50%;
   background: var(--green);
-  box-shadow: 0 0 0 0 rgba(31, 167, 106, 0.7);
+  box-shadow: 0 0 0 0 rgba(155, 220, 101, 0.7);
   animation: pulse 2s infinite;
 }
 
@@ -360,7 +360,7 @@ h3 {
   padding: 7px 12px;
   border-radius: 999px;
   color: var(--blue-800);
-  background: #eaf4ff;
+  background: #eef9e8;
   font-size: 13px;
   font-weight: 900;
 }
@@ -382,7 +382,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--white);
-  box-shadow: 0 12px 28px rgba(8, 38, 74, 0.08);
+  box-shadow: 0 12px 28px rgba(18, 53, 31, 0.08);
   transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
 }
 
@@ -391,7 +391,7 @@ h3 {
 .activity-card:hover,
 .project-item:hover {
   transform: translateY(-6px);
-  border-color: rgba(20, 117, 209, 0.32);
+  border-color: rgba(105, 201, 95, 0.44);
   box-shadow: var(--shadow);
 }
 
@@ -407,7 +407,7 @@ h3 {
   padding: 9px;
   border-radius: 50%;
   color: var(--blue-800);
-  background: #eaf4ff;
+  background: #eef9e8;
 }
 
 .mission-grid h3,
@@ -419,7 +419,7 @@ h3 {
 .radio-feature {
   color: var(--white);
   background:
-    linear-gradient(135deg, rgba(8, 38, 74, 0.96), rgba(15, 79, 159, 0.92)),
+    linear-gradient(135deg, rgba(18, 53, 31, 0.96), rgba(47, 143, 70, 0.92)),
     url("../images/radio.jpg") center/cover;
 }
 
@@ -613,7 +613,7 @@ h3 {
 
 .gallery-filters button.is-active {
   color: var(--blue-950);
-  background: var(--yellow);
+  background: var(--green);
 }
 
 .gallery-grid {
@@ -660,14 +660,14 @@ h3 {
   padding: 10px 12px;
   border-radius: var(--radius);
   color: var(--white);
-  background: rgba(8, 38, 74, 0.78);
+  background: rgba(18, 53, 31, 0.78);
   font-weight: 900;
 }
 
 .impact {
   padding: 86px clamp(18px, 5vw, 72px);
   background:
-    linear-gradient(135deg, rgba(246, 197, 66, 0.9), rgba(31, 167, 106, 0.83)),
+    linear-gradient(135deg, rgba(155, 220, 101, 0.92), rgba(246, 197, 66, 0.78)),
     url("../images/galeriainicio2.jpg") center/cover;
 }
 
@@ -711,7 +711,7 @@ h3 {
   padding: 34px;
   border-radius: var(--radius);
   color: var(--white);
-  background: linear-gradient(135deg, var(--blue-950), var(--blue-600));
+  background: linear-gradient(135deg, var(--blue-950), var(--blue-800));
   box-shadow: var(--shadow);
 }
 
@@ -769,7 +769,7 @@ input:focus,
 textarea:focus,
 select:focus {
   border-color: var(--blue-600);
-  box-shadow: 0 0 0 4px rgba(20, 117, 209, 0.14);
+  box-shadow: 0 0 0 4px rgba(105, 201, 95, 0.18);
   outline: none;
 }
 
@@ -790,7 +790,7 @@ select:focus {
 .forum-post {
   padding: 16px;
   border: 1px solid var(--line);
-  border-left: 5px solid var(--yellow);
+  border-left: 5px solid var(--green);
   border-radius: var(--radius);
   background: #fbfdff;
 }
@@ -904,7 +904,7 @@ select:focus {
   display: grid;
   place-items: center;
   padding: 24px;
-  background: rgba(8, 38, 74, 0.88);
+  background: rgba(18, 53, 31, 0.88);
 }
 
 .lightbox img {
@@ -939,10 +939,10 @@ select:focus {
 
 @keyframes pulse {
   70% {
-    box-shadow: 0 0 0 18px rgba(31, 167, 106, 0);
+    box-shadow: 0 0 0 18px rgba(155, 220, 101, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(31, 167, 106, 0);
+    box-shadow: 0 0 0 0 rgba(155, 220, 101, 0);
   }
 }
 
